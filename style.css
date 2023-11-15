@@ -240,9 +240,21 @@ footer {
 }
 
 
+.form-buttons input, value {
+  font-family: 'Staatliches', sans-serif; 
+  
+  font-size: 20px;
+  font-style: normal;
+
+  color: #FFF;
+}
+
 .form-buttons input:hover {
   background: #dc4d69;
 }
 
 
+input:invalid {
+  border: 1px solid #FF1010;
+}
 
